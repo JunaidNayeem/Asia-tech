@@ -39,7 +39,7 @@ class HeaderFive extends Component{
         }else if(logo === 'symbol-dark'){
             logoUrl = <img src="/assets/images/logo/ATT Star Icon.png" width={145} alt="AsiaTech" />;
         }else if(logo === 'all-dark'){
-            logoUrl = <img src="/assets/images/logo/ATT Logo.png" width={145} alt="AsiaTech" />;
+            logoUrl = <img src="/assets/images/logo/ATT Logo (JPEG).jpg" width={145} alt="AsiaTech" />;
         } else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/ATT Star Icon.png" width={145} alt="AsiaTech" />;
         }else{

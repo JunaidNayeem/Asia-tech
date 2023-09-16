@@ -11,9 +11,11 @@ import Team from "../blocks/team/TeamTwo";
 import Accordion01 from "../elements/Accordion";
 import Helmet from "../component/common/Helmet";
 import { FiCast , FiLayers , FiUsers ,FiChevronUp , FiCheck } from "react-icons/fi";
-
+import Testimonial from "../elements/Testimonial"
+import Footer from "../component/footer/Footer";
 import CounterOne from "../elements/counters/CounterOne";
 import BrandOne from "../elements/Brand";
+import BrandTwo from "../elements/BrandTwo";
 import { Background } from "react-parallax";
 import { ProgressBar } from 'react-bootstrap';
 import { videoTagString, VideoTag } from 'react-video-tag';
@@ -50,7 +52,7 @@ const ServiceListOne = [
     {
         icon: <FiLayers />,
         title: 'Unrivaled Brands',
-        description: 'We have cultivated partnerships with a plethora of renowned brands, including industry giants such as: Intel, Nvidia, Logitech, Samsung, Huawei, Lenovo, Dell, Sony, AMD, Microsoft, LG, Sandisk,  Toshiba, Kingston,  ASUS, Xiaomi, HP and numerous others.'
+        description: 'We have cultivated partnerships with a plethora of renowned brands, including industry giants such as: Intel, Nvidia, Logitech, Samsung, Huawei, Dell, Sony, AMD, Microsoft, LG, Sandisk,  Toshiba, ASUS.'
     },
     {
         icon: <FiUsers />,
@@ -72,7 +74,7 @@ const starndardService = [
     },
     {
         image: '03',
-        title: 'Biseness Development',
+        title: 'Business Development',
         description: 'I throw myself down among the tall grass by the stream',
     },
 
@@ -224,8 +226,15 @@ class CorporateBusiness extends Component{
                 {/* End Featured Service Area  */}
 
                 {/* Start Counterup Area */}
-                <div className="counterup-area pb--80 pt--40 bg_image bg_image--24  theme-text-white" data-black-overlay="7">
+                <div className="counterup-area pb--80 pt--40 bg_image bg_image--3  theme-text-white" data-black-overlay="7">
                     <div className="container ">
+                        <div className="row">
+                            <div className="col-lg-12 m-5">
+                                <div className="section-title text-center">
+                                    <h3 className="fontWeight500 text-light">Quick Overview</h3>
+                                </div>
+                            </div>
+                        </div>
                         <CounterOne />
                     </div>
                 </div>
@@ -237,14 +246,14 @@ class CorporateBusiness extends Component{
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-6">
                                 <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-4.png" alt="About Images"/>
+                                    <img className="w-100" src="/assets/images/about/about-51.jpg" alt="About Images"/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="about-inner inner">
                                     <div className="section-title text-justify">
                                         <h3 className="title">A Decade of Excellence</h3>
-                                        <p >Asia Tech & Trading Limited takes immense pride in its 10+ years of industry leadership. Our journey over this past decade has been marked by consistent success, unwavering expertise, and a resolute commitment to providing unparalleled wholesale technological solutions. Having navigated and thrived in the ever-evolving tech landscape, we stand as a beacon of stability and innovation in the market. Our track record speaks volumes about our resilience, adaptability, and dedication to serving our clients with the utmost excellence.</p>
+                                        <p className="description">The team behind Asia Tech & Trading Limited takes immense pride in its 10+ years of industry experience. Our journey over this past decade has been marked by consistent success, unwavering expertise, and a resolute commitment to providing unparalleled wholesale technological solutions. Having navigated and thrived in the ever-evolving tech landscape, we stand as a beacon of stability and innovation in the market. Our track record speaks volumes about our resilience, adaptability, and dedication to serving our clients with the utmost excellence.</p>
                                     </div>
                                     {/* <div className="accordion-wrapper mt--30">
                                         <Accordion01 />
@@ -262,7 +271,7 @@ class CorporateBusiness extends Component{
                 {/* Start Team Area  */}
                 <div className="rn-team-area ptb--120 bg_color--1">
                     <div className="container">
-                        <div className="row">
+                        <div className="row row--35">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                     <h2 className="title">New Products</h2>
@@ -278,14 +287,14 @@ class CorporateBusiness extends Component{
                 {/* End Team Area  */}
 
                 <div className="rn-about-area ptb--120 bg_color--1">
-                <div className="rn-about-wrapper">
+                {/* <div className="rn-about-wrapper"> */}
                     <div className="container">
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-7">
                                 <div className="about-inner inner">
-                                    <div className="section-title">
+                                    <div className="section-title counterup_style--1">
                                         <h2 className="title text-justify">What do we do?</h2>
-                                        <p className="description text-justify">Asia Tech & Trading Limited takes immense pride in its 10+ years of industry leadership. Our journey over this past decade has been marked by consistent success, unwavering expertise, and a resolute commitment to providing unparalleled wholesale technological solutions.</p>
+                                        <p className="description text-justify">Asia Tech & Trading Limited is a leader in the technology wholesale industry. During our time, the company has maintained a consistent track record of success, demonstrating its expertise and commitment to providing unparalleled technological products and solutions. The company's dedication to excellence has earned it a reputation as a trusted partner for businesses worldwide.</p>
                                     </div>
                                     <div className="row mt--30">
                                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -293,25 +302,25 @@ class CorporateBusiness extends Component{
                                                 <h3 className="title">Our Working Process.</h3>
                                                 <div className="rn-progress-bar progress-bar--3">
                                                     <div className="single-progress custom-color--1">
-                                                        <h6 className="title">Designing</h6>
+                                                        <h6 className="title">Consumer Electronics</h6>
                                                         <ProgressBar now={81} />
                                                         <span className="label">81%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--2">
-                                                        <h6 className="title">Managment</h6>
+                                                        <h6 className="title">IT Products & Services</h6>
                                                         <ProgressBar now={72} />
                                                         <span className="label">72%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--3">
-                                                        <h6 className="title">Marketing</h6>
+                                                        <h6 className="title">Software Solutions</h6>
                                                         <ProgressBar now={89} />
                                                         <span className="label">89%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--4">
-                                                        <h6 className="title">Development</h6>
+                                                        <h6 className="title">Wholesale & Exports</h6>
                                                         <ProgressBar now={57} />
                                                         <span className="label">57%</span>
                                                     </div>
@@ -329,7 +338,7 @@ class CorporateBusiness extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
                 {/* Start About Area  */}
@@ -338,7 +347,7 @@ class CorporateBusiness extends Component{
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-6 order-2 order-lg-1">
                                 <div className="about-inner inner">
-                                    <div className="section-title">
+                                    <div className="counterup_style--1 section-title">
                                         <h2 className="title text-justify">About</h2>
                                         <p className="description text-justify">Welcome to Asia Tech & Trading Limited - Your Premier Wholesale Partner for Technological Solutions.At Asia Tech, located in the vibrant hub of Hong Kong, we take immense pride in being a dominant force in the world of wholesale distribution and trade. We stand as a stalwart figure in the industry, specializing in an extensive array of computer products, components, and cutting-edge tech marvels. With an unwavering focus on superior quality and unbeatable prices, we have firmly established ourselves as a prominent player in the global wholesale arena.</p>
                                     </div>
@@ -363,7 +372,8 @@ class CorporateBusiness extends Component{
                             <div className="col-lg-6 order-1 order-lg-2">
                                 <div className="thumbnail position-relative">
                                     <img className="w-100" src="/assets/images/about/about-3.png" alt="About Images"/>
-                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='cUN3NOR-iPA' onClose={() => this.setState({isOpen: false})} />
+                                    
                                     <button className="video-popup position-top-center theme-color" onClick={this.openModal}><span className="play-icon"></span></button>
                                 </div>
                             </div>
@@ -372,12 +382,20 @@ class CorporateBusiness extends Component{
                 </div>
                 {/* End About Area  */}
 
+                {/* Start Testimonial Area */}
+                <div className="rn-testimonial-area bg_color--5 ptb--120">
+                    <div className="container">
+                        <Testimonial />
+                    </div>
+                </div>
+                {/* End Testimonial Area */}
+
                 {/* Start Brand Area  */}
                 <div className="rn-brand-area ptb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <BrandOne branstyle="branstyle--2" />
+                                <BrandTwo branstyle="branstyle--2" />
                             </div>
                         </div>
                     </div>
@@ -520,11 +538,11 @@ class CorporateBusiness extends Component{
                 {/* End Blog Area */}
 
                 {/* Start call To Action  */}
-                <CallAction />
+                {/* <CallAction /> */}
                 {/* End call To Action  */}
 
                 {/* Start Footer Style  */}
-                <FooterTwo />
+                <Footer/>
                 {/* End Footer Style  */}
 
                 {/* Start Back To Top */}

@@ -9,6 +9,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
+
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component{
@@ -28,11 +29,11 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="3">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="rn-page-title text-center pt--100">
+                                <div className="rn-page-title text-center pt--100 ">
                                     <h2 className="title theme-gradient">Contact With Us</h2>
                                     <p>Are you ready to step into the realm of unparalleled technological
                                     wholesale experiences? Reach out to ATT Limited today, and embark on a
@@ -64,7 +65,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel: +85236151064"> +85236151064</a></p>
+                                        <p><a href="tel: +852-95811918"> +852-95811918</a></p>
+                                        <p><a href="tel: +852-23599006"> +852-23599006</a></p>
                                         {/* <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p> */}
                                     </div>
                                 </div>
@@ -130,11 +132,12 @@ class Contact extends Component{
                         
                     </div>
                 </div>
+                <hr /><hr /><hr /><hr />
                 {/* End Contact Map  */}
                 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -142,7 +145,7 @@ class Contact extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}
@@ -152,7 +155,7 @@ class Contact extends Component{
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-                
+              
                 <Footer />
                 
             </React.Fragment>

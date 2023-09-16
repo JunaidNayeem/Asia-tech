@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn, FaMailBulk, FaVoicemail, FaMailchimp, FaPhone} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -18,8 +18,8 @@ class Footer extends Component{
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Ready To Do This</span>
-                                        <h2>Let's get <br /> to work</h2>
+                                        <span>Have Questions?</span>
+                                        <h2>We're ready <br /> to help.</h2>
                                         <a className="rn-button-style--2" href="/contact">
                                             <span>Contact Us</span>
                                         </a>
@@ -27,16 +27,16 @@ class Footer extends Component{
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className="footer-right" data-black-overlay="6">
+                                <div className="footer-right" data-black-overlay="3">
                                     <div className="row">
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12">
                                             <div className="footer-link">
                                                 <h4>Quick Link</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="/portfolio">Work</a></li>
+                                                    <li><a href="/">Home</a></li>
                                                     <li><a href="/about">About</a></li>
-                                                    <li><a href="/contact">Let's Talk</a></li>
+                                                    <li><a href="/contact">Contact</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -46,8 +46,10 @@ class Footer extends Component{
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:INFO@ASIATECHTRADING.COM">INFO@ASIATECHTRADING.COM</a></li>
-                                                    {/* <li><a href="mailto:hr@example.com">hr@example.com</a></li> */}
+                                                    <li><a href="mailto: info@asiatechtrading.com"><FaMailBulk/> info@asiatechtrading.com</a></li> 
+                                                    <li><a href="tel: +852-95811918"> <FaPhone/> +852-95811918</a></li>
+                                                    <li><a href="tel: +852-23599006"> <FaPhone/> +852-23599006</a></li>
+                                                    
                                                 </ul>
 
                                                 <div className="social-share-inner">

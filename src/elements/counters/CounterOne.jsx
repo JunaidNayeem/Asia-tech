@@ -3,8 +3,6 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 
-
-
 class CounterOne extends Component{
     state = {
         didViewCountUp: false
@@ -19,17 +17,17 @@ class CounterOne extends Component{
             {
                 countNum : 800 ,
                 countName:'Products',
-                countTitle: 'Explore Asia Tech extensive catalog featuring over 1000 high-quality products, including computer components, mobile parts, television innovations, and much more. We continuously expand our offerings to meet your evolving technological needs.',
+                countTitle: 'Explore Asia Tech extensive catalog featuring over 800 high-quality products.',
             },
             {
                 countNum : 350,
                 countName:'Clients',
-                countTitle: 'Join our ever-growing family of satisfied clients. With over 500 trusted partners worldwide, Asia Tech has established itself as a reliable choice for businesses seeking top-tier technology solutions. Our commitment to client satisfaction is unwavering.',
+                countTitle: 'Join our ever-growing family of satisfied clients with over 350+ trusted partners worldwide.',
             },
             {
                 countNum : 100,
                 countName:'Brands',
-                countTitle: 'Asia Tech & Trading Limited proudly collaborates with a diverse array of over 100 renowned brands. From industry giants to niche innovators, our extensive brand portfolio ensures that you have access to a wide range of cutting-edge technology solutions. Whether you are seeking products from household names or exploring emerging tech pioneers, we have got you covered.',
+                countTitle: 'Asia Tech proudly collaborates with a diverse array of over 200 renowned brands. From industry giants to niche innovators.',
             },
         ];
 

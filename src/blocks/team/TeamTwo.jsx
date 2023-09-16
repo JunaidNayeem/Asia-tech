@@ -9,7 +9,7 @@ const TeamTwo = (props) => {
                 <div className={`${props.column}`} key={i}>
                     <div className={`team-static ${props.teamStyle}`}>
                         <div className="thumbnail">
-                            <NavLink to={'/product'}><img src={`/assets/images/team/team-${value.images}.jpg`} alt="Blog Images"/></NavLink>
+                            <NavLink to={'/product'}><img src={`/assets/images/team/team-${value.images}.jpg`} width={"100%"} height={"250px"} alt="Product Images"/></NavLink>
                         </div>
                         
                     </div>

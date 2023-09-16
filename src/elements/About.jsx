@@ -52,7 +52,7 @@ class About extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
+                                        <img className="w-100" height={"600px"} src="/assets/images/about/about-53.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 text-justify">
@@ -90,12 +90,12 @@ class About extends Component{
                 {/* End About Area  */}
                  {/* Start CounterUp Area */}
                  <div className="rn-counterup-area pb--120 bg_color--1">
-                 <div className="counterup-area pb--80 pt--40 bg_image bg_image--24  theme-text-white" data-black-overlay="7">
+                 <div className="counterup-area pb--80 pt--40 bg_image bg_image--3  theme-text-white" data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 m-5">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500 text-light">Our Fun Facts</h3>
+                                    <h3 className="fontWeight500 text-light">Quick Overview</h3>
                                 </div>
                             </div>
                         </div>
@@ -243,8 +243,9 @@ Why Choose Asia Tech
                     <div className="inner">
                         <div className="content-wrapper">
                             <div className="content">
-                                <h4 className="theme-gradient">Find Your Product Now</h4>
-                                <p>Explore Asia Tech's extensive catalog featuring over 1000 high-quality products, including computer components, mobile parts, television innovations, and much more. We continuously expand our offerings to meet your evolving technological needs.</p>
+                                <h4 className="theme-gradient">Explore Our Diverse Product Range</h4>
+                                <p>Uncover an array of tech solutions within Asia Tech's expansive catalog, encompassing over 1000 top-tier products. Our selection spans across computer components, mobile parts, state-of-the-art television innovations, and a host of other offerings. We are dedicated to continually expanding our inventory to ensure we meet your evolving technological needs effectively.
+</p>
                                 <a className="rn-btn btn-white" href="/about">Get Started</a>
                             </div>
                         </div>
@@ -320,7 +321,7 @@ Why Choose Asia Tech
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
+                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">Jone Due</h4>
@@ -340,7 +341,7 @@ Why Choose Asia Tech
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
+                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">BM. Alamin</h4>
@@ -360,7 +361,7 @@ Why Choose Asia Tech
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
+                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">Jone Due</h4>
@@ -389,7 +390,7 @@ Why Choose Asia Tech
                 {/* End Testimonial Area */}
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -397,7 +398,7 @@ Why Choose Asia Tech
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}
@@ -407,9 +408,9 @@ Why Choose Asia Tech
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-                
+            
                 <Footer />
-
+              
             </React.Fragment>
         )
     }

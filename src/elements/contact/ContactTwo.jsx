@@ -8,10 +8,9 @@ class ContactTwo extends Component {
                 <div className="container">
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
-                            <div className="section-title text-left mb--50">
+                            <div className="section-title text-center mb--50 ">
                                 <h2 className="title">Contact Us.</h2>
-                                <p className="description">Unlocking Tomorrow's Tech Today
-                                –
+                                <p className="description text-justify text-center">Unlocking Tomorrow's Tech Today <hr />
                                 Join Hands with Asia Tech & Trading
                                 Limited!</p>
                             </div>
@@ -21,7 +20,7 @@ class ContactTwo extends Component {
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-6.jpg" alt="asistech"/>
+                                <img src="/assets/images/about/about-50.jpg" width={"600px"} height={"600px"} alt="asistech"/>
                             </div>
                         </div>
                     </div>

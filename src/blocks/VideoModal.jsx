@@ -15,7 +15,7 @@ class VideoModal extends Component {
     render() {
         return (
             <>
-                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='cUN3NOR-iPA' onClose={() => this.setState({isOpen: false})} />
                 <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
             </>
         )

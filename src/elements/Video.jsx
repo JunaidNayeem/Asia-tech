@@ -17,7 +17,7 @@ class  VideoButton extends Component {
     render(){
         return(
             <div className={`video-popup-button ${this.props.ButtonStyle}`}>
-                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='cUN3NOR-iPA' onClose={() => this.setState({isOpen: false})} />
                 <button className="video-popup" onClick={this.openModal}><FaPlay /><span>Intro & demo video</span></button>
             </div>
         )

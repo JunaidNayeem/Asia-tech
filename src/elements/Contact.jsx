@@ -4,6 +4,7 @@ import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
 import GoogleMapReact from 'google-map-react';
 import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
+import Particles from "react-tsparticles";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
@@ -30,6 +31,90 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
+                 <div className="slider-activation slider-creative-agency with-particles" id="home">
+                 <div className="frame-layout__particles">
+                        <Particles className="particle"  
+                            options={{
+                                style:{
+                                    position: "absolute"
+                                },
+                                fpsLimit: 100,
+                                interactivity: {
+                                detectsOn: "canvas",
+                                events: {
+                                    onClick: {
+                                    enable: true,
+                                    mode: "push",
+                                    },
+                                    onHover: {
+                                    enable: true,
+                                    mode: "repulse",
+                                    },
+                                    resize: true,
+                                },
+                                modes: {
+                                    bubble: {
+                                        distance: 100,
+                                        duration: 2,
+                                        opacity: 0.8,
+                                        size: 10,
+                                        color: "#888",
+                                    },
+                                    push: {
+                                    quantity: 4,
+                                    },
+                                    repulse: {
+                                        distance: 100,
+                                        duration: 0.4,
+                                        color: "#888",
+                                    },
+                                },
+                                },
+                                particles: {
+                                color: {
+                                    value: "#888",
+                                },
+                                links: {
+                                    color: "#888",
+                                    distance: 150,
+                                    enable: true,
+                                    opacity: 0.5,
+                                    width: 1,
+                                },
+                                collisions: {
+                                    enable: true,
+                                },
+                                move: {
+                                    direction: "none",
+                                    enable: true,
+                                    outMode: "bounce",
+                                    random: false,
+                                    speed: 6,
+                                    straight: false,
+                                   
+                                },
+                                number: {
+                                    density: {
+                                        enable: true,
+                                        value_area: 2000,
+                                    },
+                                    value: 80,
+                                },
+                                opacity: {
+                                    value: 0.5,
+                                },
+                                shape: {
+                                    type: "circle",
+                                },
+                                size: {
+                                    random: true,
+                                    value: 5,
+                                },
+                                },
+                                detectRetina: true,
+                            }}
+                        />
+                    </div>
                  <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--27"  data-black-overlay="3">
                     <div className="container">
                         <div className="row">
@@ -50,6 +135,8 @@ class Contact extends Component{
                         </div>
                     </div>
                 </div>
+                 </div>
+                 
                 {/* End Breadcrump Area */}
 
 

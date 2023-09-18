@@ -7,7 +7,8 @@ import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
+import CallAction from "../elements/callaction/CallAction";
 
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -29,17 +30,17 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="3">
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--27"  data-black-overlay="3">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100 ">
                                     <h2 className="title theme-gradient">Contact With Us</h2>
-                                    <p>Are you ready to step into the realm of unparalleled technological
-                                    wholesale experiences? Reach out to ATT Limited today, and embark on a
-                                    journey that promises growth, innova
-                                    tion, and success.
-                                    <hr />
+                                    <p className="text-center mt-3">Are you ready to step into the realm of unparalleled technological
+                                    wholesale experiences ? </p>
+                                    <p className="text-center">Reach out to ATT Limited today, and embark on a
+                                    journey that promises growth, innovation, and success.
+                                 
                                     Unlocking Tomorrow's Tech Today
                                     –
                                     Join Hands with Asia Tech & Trading
@@ -58,7 +59,7 @@ class Contact extends Component{
                        
                         <div className="row">
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt-2">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiHeadphones />
@@ -66,15 +67,18 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
                                         <p><a href="tel: +852-95811918"> +852-95811918</a></p>
+                                        <hr />
                                         <p><a href="tel: +852-23599006"> +852-23599006</a></p>
                                         {/* <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p> */}
+                                        <hr />
+                                        
                                     </div>
                                 </div>
                             </div>
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50 mt-2">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiMail />
@@ -82,6 +86,7 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
                                         <p><a href="mailto:INFO@ASIATECHTRADING.COM">INFO@ASIATECHTRADING.COM</a></p>
+                                        <hr /><hr /><hr /><hr />
                                         {/* <p><a href="mailto:example@gmail.com">example@gmail.com</a></p> */}
                                     </div>
                                 </div>
@@ -89,7 +94,7 @@ class Contact extends Component{
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50 mt-2">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiMapPin />
@@ -98,7 +103,7 @@ class Contact extends Component{
                                         <h4 className="title">Location</h4>
                                         <p>UNIT 42, 2/F MIRADOR MANSION, 58 NATHAN ROAD,
                                             TSIM SHA TSUI, KOWLOON 999077 KL, HONG KONG
-                                            </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -155,8 +160,14 @@ class Contact extends Component{
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-              
-                <Footer />
+              {/* Start call To Action  */}
+                <CallAction />
+                {/* End call To Action  */}
+
+                {/* Start Footer Style  */}
+                <Footer/>
+                {/* End Footer Style  */}
+                {/* <Footer /> */}
                 
             </React.Fragment>
         )

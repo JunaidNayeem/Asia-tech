@@ -18,9 +18,9 @@ class ContactTwo extends Component {
                                 <ContactForm />
                             </div>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2">
-                            <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-50.jpg" width={"600px"} height={"600px"} alt="asistech"/>
+                        <div className="col-lg-6 order-1 order-lg-2 p-5 pl-5 ">
+                            <div className="thumbnail mb_md--30 mb_sm--30 ">
+                                <img src="/assets/images/about/about-50.jpg"alt="asistech" height={"530px"} width={"600px"}/>
                             </div>
                         </div>
                     </div>

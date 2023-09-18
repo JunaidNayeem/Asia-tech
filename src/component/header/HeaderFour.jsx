@@ -65,7 +65,7 @@ class HeaderFour extends Component{
                                               
                                               <li><Link to="/about" >About</Link></li>
   
-                                              <li className="has-droupdown"><Link to="/product" >Product</Link>
+                                              <li className="has-droupdown"><Link to="/product" >Products</Link>
                                                   
                                               </li>
                                               

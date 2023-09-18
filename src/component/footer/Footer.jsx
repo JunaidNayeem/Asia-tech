@@ -27,7 +27,7 @@ class Footer extends Component{
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className="footer-right" data-black-overlay="3">
+                                <div className="footer-right" data-black-overlay="0">
                                     <div className="row">
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12">
@@ -65,7 +65,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2023 AsiaTech&Trading. All Rights Reserved.</p>
+                                                <p>Copyright © 2023 Asia Tech &  Trading. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

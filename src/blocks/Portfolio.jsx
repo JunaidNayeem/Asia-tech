@@ -133,7 +133,7 @@ const Portfolio = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div className="section-title text-center service-style--3 mb--30">
+                                    <div className="section-title text-center  mb--30">
                                         <h2 className="title">All Products</h2>
                                         <p>There are many variations of products are available, but the majority have suffered alteration.</p>
                                     </div>

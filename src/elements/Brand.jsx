@@ -26,7 +26,33 @@ class Brand extends Component{
                     <li>
                         <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-06.png" alt="Logo Images"/></a>
                     </li>
-                    
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-07.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-08.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-09.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-10.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-11.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-12.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-13.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-14.png" alt="Logo Images"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.samsung.com/"><img src="/assets/images/brand/brand-15.png" alt="Logo Images"/></a>
+                    </li>
                 </ul>
             </React.Fragment>
         )

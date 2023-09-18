@@ -93,7 +93,7 @@ class PortfolioDetails2 extends Component{
 
                             {/* Start PRicing Table Area  */}
                             <div className="col-lg-4 col-md-6 col-12 mt--30">
-                                <div className="rn-pricing active">
+                                <div className="rn-pricing">
                                     <div className="pricing-table-inner">
                                         
                                         <div className="pricing-body">

@@ -217,7 +217,7 @@ button {
             }
         }
         &.theme-color {
-            background: $theme-color;
+            background: transparent;
             border-color: $theme-color;
             &::before{
                 border-left: 15px solid #ffffff;

@@ -23,7 +23,7 @@ const ServiceListOne = [
     {
         icon: "icon-01.png",
         title: 'Unbeatable Wholesale Prices',
-        description: ' Our strong relationships with manufacturers and brands allow us to offer you the most competitive prices in the market. When you partner with us, you are guaranteed cost-effective solutions.'
+        description: ' Our strong relationships with manufacturers and brands allow us to offer you the most competitive prices in the market. '
     },
     {
         icon: "icon-02.png",
@@ -33,7 +33,7 @@ const ServiceListOne = [
     {
         icon: "icon-03.png",
         title: 'Best Customer Support',
-        description: 'Our devoted support team is here to assist you at every step of the way.'
+        description: 'Our devoted support team is here to assist you at every step of the way. When you partner with us, you are guaranteed cost-effective solutions.'
     },
     {
         icon: "icon-02.png",
@@ -78,7 +78,7 @@ class About extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" height={"600px"} src="/assets/images/about/about-53.jpg" alt="About Images"/>
+                                        <img className="w-100" height={"600px"} src="/assets/images/about/chapman-chow-de1pD8bmFww-unsplash.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 text-justify">
@@ -116,6 +116,25 @@ class About extends Component{
                 </div>
                 {/* End About Area  */}
 
+                 {/* Start Service Area  */}
+                 <div className=" creative-service-wrapper bg_color--1" >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 col-12">
+                                <div className="section-title text-left mb--30">
+                                    <h3>Industries We Cater To</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row creative-service">
+                            <div className="col-lg-12 ">
+                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                {/* End Service Area  */}
+
                  {/* Start About Area  */}
                  <div className="rn-about-area ptb--120 bg_color--5">
                     <div className="container">
@@ -146,7 +165,7 @@ class About extends Component{
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2">
                                 <div className="thumbnail position-relative">
-                                    <img className="w-100" src="/assets/images/about/about-3.png" alt="About Images"/>
+                                    <video  className="w-100" src="/assets/images/about/production_id_4300496 (720p).mp4" type="video/mp4" alt="About Images"  height='600px' autoPlay loop></video>
                                     <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='cUN3NOR-iPA' onClose={() => this.setState({isOpen: false})} />
                                     
                                     <button className="video-popup position-top-center theme-color" onClick={this.openModal}><span className="play-icon"></span></button>
@@ -158,7 +177,7 @@ class About extends Component{
                 {/* End About Area  */}
                 
                  {/* Start CounterUp Area */}
-                 <div className="rn-counterup-area pb--120 bg_color--1">
+                 {/* <div className="rn-counterup-area pb--120 bg_color--1">
                  <div className="counterup-area pb--80 pt--40 bg_image bg_image--33  theme-text-white" data-black-overlay="7">
                     <div className="container">
                         <div className="row">
@@ -172,7 +191,7 @@ class About extends Component{
                         </div>
                         
                     </div>
-                </div>
+                </div> */}
 
                 <div className="service-area creative-service-wrapper  bg_color--1 " id="service">
                     <div className="container">
@@ -188,11 +207,11 @@ class About extends Component{
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                     <a>
                                         <div className="about-inner inner  ">
-                                            <div className="icon p-4 ">
+                                            <div className="icon p-4 text-center ">
                                                 <img src={`/assets/images/icons/${val.icon}`} alt="Service Icon"/>
                                             </div>
                                             <div className="content text-justify ml-3">
-                                                <h4 className="title">{val.title}</h4>
+                                                <h4 className="title text-center">{val.title}</h4>
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
@@ -225,25 +244,6 @@ class About extends Component{
                 </div><hr /><hr /><hr /><hr />
                 {/* End Finding Us Area  */}
 
-                 {/* Start Service Area  */}
-                 <div className=" creative-service-wrapper bg_color--1" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 col-12">
-                                <div className="section-title text-left mb--30">
-                                    <h3>Industries We Cater To</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12 ">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                {/* End Service Area  */}
-
                 {/* Start Team Area  */}
                 <div className="rn-team-area bg_color--1 ptb--120">
                     <div className="container">
@@ -262,7 +262,7 @@ class About extends Component{
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
+                                        <img className="w-100"  height={"500px"} src="/assets/images/team/team-01.jpeg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">Jone Due</h4>
@@ -282,7 +282,7 @@ class About extends Component{
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
+                                        <img className="w-100"  height={"500px"} src="/assets/images/team/team-02.jpeg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">BM. Alamin</h4>
@@ -302,7 +302,7 @@ class About extends Component{
                                 <div className="team">
                                 <NavLink to={'/product'}>
                                     <div className="thumbnail">
-                                        <img className="w-100" width={"100%"} height={"250px"} src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
+                                        <img className="w-100"  height={"500px"} src="/assets/images/team/satechi_slim_usb-c_multiport_adapter_version_2_black_4.jpeg" alt="Blog Images"/>
                                     </div></NavLink>
                                     {/* <div className="content">
                                         <h4 className="title">Jone Due</h4>

@@ -27,7 +27,7 @@ class CounterOne extends Component{
             {
                 countNum : 100,
                 countName:'Brands',
-                countTitle: 'Asia Tech proudly collaborates with a diverse array of over 200 renowned brands. From industry giants to niche innovators.',
+                countTitle: 'Asia Tech proudly collaborates with a array of over 200+ brands. From industry giants to niche innovators.',
             },
         ];
 

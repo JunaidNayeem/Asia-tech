@@ -107,42 +107,42 @@ class Testimonial extends Component{
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Raymond.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Jerrick.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Alex.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/LI Wei.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Sarah.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-7.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Neha.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
@@ -150,21 +150,21 @@ class Testimonial extends Component{
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
                                             
-                                            <img src="/assets/images/client/testimonial-6.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Lee.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Johann.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/Rajesh.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>

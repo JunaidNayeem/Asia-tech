@@ -54,12 +54,12 @@ const ServiceListOne = [
     {
         icon: <FiLayers />,
         title: 'Unrivaled Brands',
-        description: 'We have cultivated partnerships with a plethora of renowned brands, including industry giants such as: Intel,  Samsung, Huawei, Dell, Sony, AMD, Microsoft, LG, Sandisk,  Toshiba, ASUS.'
+        description: 'We have cultivated partnerships with a plethora of renowned brands globally, including industry giants such as Intel, Nvidia, Samsung, Huawei, Dell, Sony, AMD, Microsoft, Western Digital, Toshiba, Logitech, etc.'
     },
     {
         icon: <FiUsers />,
         title: 'Wholesale Supremacy',
-        description: 'With our penchant for large-scale bulk transactions, we provide an avenue for businesses to access the latest tech at the most competitive prices in the market.'
+        description: 'We excel in wholesale, focusing on sizeable bulk orders. This positions us to offer businesses an opportunity to secure the latest products and tech solutions at the most competitive prices in the market'
     },
 ]
 
@@ -119,12 +119,12 @@ class CorporateBusiness extends Component{
 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
-                    <div className="slider-activation color-white">
-                        <Slider className="rn-slick-dot dot-light" {...slideSlick}>
+                    <div className="slider-activation color-white ">
+                        <Slider className="rn-slick-dot dot-light  " {...slideSlick}>
                             {SlideList.map((value , index) => (
-                                <div className={`slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center`} data-black-overlay="6" key={index}>
+                                <div className={`slide slide-style-2 slider-video-bg d-flex align-items-center justify-content-center `} data-black-overlay="6" key={index}>
                                     <div className="video-background">
-                                <VideoTag autoPlay={`${true}`} muted={`${true}`} playsInline={`${true}`} loop={`${true}`}  src={`${"/assets/images/bg/bg-image-32.mp4"}`} poster={`${"/assets/images/bg/bg-image-24.jpg"}`} />
+                                <VideoTag  autoPlay={`${true}`} muted={`${true}`} playsInline={`${true}`} loop={`${true}`}  src={`${"/assets/images/bg/bg-image-32.mp4"}`} poster={`${"/assets/images/bg/bg-image-24.jpg"}`}/>
                             </div>
                                     <div className="container">
                                         
@@ -164,7 +164,7 @@ class CorporateBusiness extends Component{
                         <div className="row service-one-wrapper">
                             {ServiceListOne.map( (val , i) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a className="text-center" href="/service-details">
+                                    <a className="text-center">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -228,12 +228,12 @@ class CorporateBusiness extends Component{
                 {/* End Featured Service Area  */}
 
                 {/* Start Counterup Area */}
-                <div className="counterup-area pb--80 pt--40 bg_image bg_image--33  theme-text-white" data-black-overlay="7">
+                <div className="counterup-area pb--80 pt--40 bg_image bg_image--12  theme-text-white text-center" data-black-overlay="7">
                     <div className="container ">
-                        <div className="row">
-                            <div className="col-lg-12 m-5">
+                        <div className="row ">
+                            <div className="col-lg-12 m-5 ">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500 text-danger">Quick Overview</h3>
+                                    <h3 className="fontWeight500 text-danger text-center  text-uppercase">Quick Overview</h3>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ class CorporateBusiness extends Component{
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-6">
                                 <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-51.jpg" alt="About Images"/>
+                                    <img className="w-100" src="/assets/images/about/10years.svg" alt="About Images"/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -339,8 +339,8 @@ class CorporateBusiness extends Component{
                             </div>
 
                             <div className="col-lg-5 mt_md--40 mt_sm--40">
-                                <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
+                                <div className="">
+                                    <img className="w-100" src="/assets/images/about/Image bundle.jpg" height={'800px'} alt="About Images"/>
                                 </div>
                             </div>
                         </div>

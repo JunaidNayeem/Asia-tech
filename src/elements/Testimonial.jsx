@@ -5,11 +5,11 @@ class Testimonial extends Component{
         return(
             <React.Fragment>
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 s">
                         <Tabs>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>As a Hong Kong-based tech solutions provider, we trust Asia Tech & Trading for our sourcing needs. Their competitive prices and extensive inventory make them an invaluable partner.</p>
                                     </div>
                                     <div className="author-info">
@@ -20,7 +20,7 @@ class Testimonial extends Component{
 
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>Asia Tech's products have boosted our retail offerings. Their partnership has been instrumental in our success as an electronics retailer in Hong Kong.</p>
                                     </div>
                                     <div className="author-info">
@@ -30,7 +30,7 @@ class Testimonial extends Component{
                             </TabPanel>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>We collaborate with Asia Tech for our IT procurement. Their exceptional customer support and cost-effective solutions have streamlined our operations.</p>
                                     </div>
                                     <div className="author-info">
@@ -41,7 +41,7 @@ class Testimonial extends Component{
 
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>Asia Tech & Trading's reach and competitive pricing have made them a preferred partner for our technology needs. Their reliability is unmatched.</p>
                                     </div>
                                     <div className="author-info">
@@ -51,7 +51,7 @@ class Testimonial extends Component{
                             </TabPanel>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>Asia Tech is my go-to wholesale supplier. Their commitment to quality and affordability helps my business thrive in the competitive tech market.</p>
                                     </div>
                                     <div className="author-info">
@@ -62,7 +62,7 @@ class Testimonial extends Component{
 
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>BB Gizmo Store's growth is indebted to Asia Tech & Trading. Their international reach ensures we always have access to the latest tech.</p>
                                     </div>
                                     <div className="author-info">
@@ -72,7 +72,7 @@ class Testimonial extends Component{
                             </TabPanel>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>SingaporeTech Solutions relies on Asia Tech & Trading for sourcing cutting-edge tech products. Their service excellence transcends borders."</p>
                                     </div>
                                     <div className="author-info">
@@ -83,7 +83,7 @@ class Testimonial extends Component{
 
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>Our company's tech innovation relies on Asia Tech's sourcing. Their top-tier products and dedication to advancement are commendable.</p>
                                     </div>
                                     <div className="author-info">
@@ -94,7 +94,7 @@ class Testimonial extends Component{
 
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
+                                    <div className="inner text-justify">
                                         <p>For our corporate IT needs, we trust Asia Tech's reliability. Their competitive pricing makes them an indispensable partner for us.</p>
                                     </div>
                                     <div className="author-info">
